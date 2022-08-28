@@ -1,0 +1,76 @@
+.music-card {
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+.card-container {
+    /* border: 1px solid; */
+    margin: 7px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 99%;
+    height: 116vh;
+    /* background: white; */
+    overflow: hidden;
+    overflow-y: auto;
+}
+*
+.music-card {
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.3rem 0.5rem;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: white;
+    border: 1px solid #00000045;
+    width: fit-content;
+    border-radius: 2vh;
+    box-shadow: 2px 2px 2px 0px grey;
+    /* max-width: 10px; */
+}
+#img{
+    height: 80px;
+    border-radius: 10px;
+    width: 9vh;
+}
+.music-card:hover{
+filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, 0.583));
+/* filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, ); */
+
+
+}
+.info {
+    margin: 10px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    /* background: url("../image/"); */
+}
+.control {
+  
+    width: 9vh;
+  
+}
+i.fa.fa-play-circle,i.fa.fa-pause-circle {
+    /* border: 1px solid black; */
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    text-align: center;
+    padding-top: 13px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+
